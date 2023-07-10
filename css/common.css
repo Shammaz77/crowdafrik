@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100;300;400;500;600;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Flex', sans-serif;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+header {
+  padding: 20px 0px;
+}
+.container-main{
+  width: 92%;
+  margin: auto;
+}
+.logo-main{
+  width: 80px;
+}
+header .nav-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-main .search-box i{
+  color: #000;
+  border: 1px solid #0455BF;
+  padding: 9px;
+  color: #0455BF;
+  border-radius: 11px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.area-funding{
+  border-radius: 18px;
+  padding: 15px;
+  margin: 11px 0px;
+  background: linear-gradient(180deg, #FE2929 0%, #B2222C 100%);
+}
+.funding-head-text{
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+.funding-sub-text{
+  padding-bottom: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.80);
+}
+.funding-aply-btn{
+  background: #fff;
+  padding: 5px 30px !important;
+  border-radius: 11px !important;
+  display: table !important;
+  margin-left: auto;
+  margin-right: auto;
+  color: #254AAA;
+}
+.main-head-text-home{
+  font-size: 20px !important;
+}
+.main-head-dv-home{
+  margin: 7px 0px;
+}
+.content-dv-home{
+  border: 1px solid #E2EFFF;
+  padding: 15px;
+  border-radius: 13px;
+  margin: 10px 0px;
+}
+.home-main-image{
+  border-radius: 12px;
+  margin-bottom: 9px;
+}
+.main-heading-content-home{
+  font-size: 17px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.main-sub-heading-content-home{
+  line-height: 1.2;
+  color: rgba(131, 131, 131, 0.80);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
