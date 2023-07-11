@@ -1,3 +1,177 @@
+.area-funding{
+  border-radius: 18px;
+  padding: 15px;
+  margin: 11px 0px;
+  background: linear-gradient(180deg, #FE2929 0%, #B2222C 100%);
+}
+.funding-head-text{
+  padding-bottom: 8px;
+  font-weight: 500;
+}
+.funding-sub-text{
+  padding-bottom: 19px;
+  font-weight: 300;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.80);
+}
+.funding-aply-btn{
+  background: #fff;
+  padding: 5px 30px !important;
+  border-radius: 11px !important;
+  display: table !important;
+  margin-left: auto;
+  margin-right: auto;
+  color: #254AAA;
+}
+.main-head-text-home{
+  font-size: 20px !important;
+}
+.main-head-dv-home{
+  margin: 7px 0px;
+}
+.content-dv-home{
+  border: 1px solid #E2EFFF;
+  padding: 15px;
+  border-radius: 13px;
+  margin: 10px 0px;
+}
+.home-main-image{
+  border-radius: 12px;
+  margin-bottom: 9px;
+}
+.main-heading-content-home{
+  font-size: 17px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.main-sub-heading-content-home{
+  line-height: 1.2;
+  font-size: 15px;
+  color: rgba(131, 131, 131, 0.80);
+}
+/* category page style  */
+.category-main-head-dv{
+  padding: 25px 0px;
+}
+.category-sub-heading{
+  font-weight: 300;
+  color: #1E233B;
+  font-size: 15px;
+ }
+.category-heading{
+  font-weight: 500;
+  font-size: 19px;
+  padding-bottom: 8px;
+}
+.grid-main-head-category{
+  font-size: 19px;
+}
+.grid-box-category{
+  background: #FE2929;
+  padding: 8px;
+  margin: 10px 0px;
+  border-radius: 7px;
+  min-height: 90px;
+  position: relative;
+}
+.grid-text-category{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 33%;
+  bottom: 50%;
+}
+.category-grid-main-head-dv{
+  padding: 6px 0px;
+}
+.category-image-section{
+	position: relative;
+}
+.back-btn i{
+	color: #fff;
+	border: 1px solid #FFF;
+	padding: 5px;
+  border-radius: 10px;
+}
+.back-btn{
+	position: absolute;
+	left: 15px;
+	top: 20px;
+}
+/* payment success page  */
+.payment-success{
+  bottom: #FE2929;
+  border-radius: 15px;
+  width: 100%;
+}
+.payment-success{
+  padding: 80px 0px 0px 0px;
+}
+.payment-success-text{
+  padding: 30px 0px 8px 0px;
+}
+.payment-success-sub-text{
+  color: #7A7A7A;
+  padding-bottom: 25px;
+}
+.vector-paymnt-pg{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+.vectr-image-paymnt-succes{
+  width: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
