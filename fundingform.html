@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- icon cdn  -->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+	<!-- css  -->
+	<link rel="stylesheet" href="./css/common.css">
+	<link rel="stylesheet" href="css/crowdafrik.css">
+	<!-- bootstrap  -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Application Form Page</title>
+</head>
+<body>
+	<!-- nav  -->
+	<div class="navigation-top">
+		<div class="container-main">
+			<div class="nav-main-top">
+				<div class="back-btn-nav" onclick="window.location.href='home.html'">
+					<i class="ri-arrow-left-s-line"></i>
+				</div>
+				<h5 class="page-name-nav mb-0">Fill up the form Enter details</h5>
+			</div>
+		</div>
+	</div>
+	<!-- nav end  -->
+	<div class="container-main">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="page-main-head-dv">
+					<h5 class="text-center page-main-heading">Funding Application</h5>
+				</div>
+			</div>
+			<!-- forms  -->
+			<form class="funding-form">
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Type of machinery/farm">
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Plot size if farming">
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Location of the intended business*">
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4">
+					<div class="form-group">
+						<div style="border: 1px solid #ced4da;border-radius: 8px;" class="input-group browse-btn">
+							<span style="margin-left: 15px; color:#999; margin-top:6px;"  id="showFileName"></span>
+							<span style="display: table;margin-left: auto;margin: 5px;border-radius: 5px;display: table;margin-left: auto;"  class="input-group-btn primary-bg">
+								<label style="margin-bottom: 0px;font-weight: 400;padding: 4px 8px;border-radius: 7px;font-size: 14px;"  class="btn slava-primary-bg btn-file text-white" for="multiple_input_group">
+									Browse
+								</label>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Estimated annual turnove">
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="add-nominee-dv">
+						<h6 class="nominee-main-head">Add 5 nominees*</h6>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- nomine form  -->
+	<div class="container-main nominee-box-main">
+		<div class="row">
+			<form class="add-nominee-form">
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Name">
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Phone number">
+					</div>
+				</div>
+			</form>
+			<form class="add-nominee-form">
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Name">
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Phone number">
+					</div>
+				</div>
+			</form>
+			<form class="add-nominee-form">
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Name">
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Phone number">
+					</div>
+				</div>
+			</form>
+			<form class="add-nominee-form">
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Name">
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Phone number">
+					</div>
+				</div>
+			</form>
+			<form class="add-nominee-form">
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Name">
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="form-group">
+						<input type="password" class="form-control" id="inputPassword" placeholder="Phone number">
+					</div>
+				</div>
+			</form>
+			<div class="col-lg-12 mt-4">
+				<div class="finish-btn-dv">
+					<h6 class="btn finish-application-btn primary-bg text-white mb-0" onclick="window.location.href='paymentsuccess.html'">Finish the application</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- swipper slider js end  -->
+</body>
+</body>
+</html>

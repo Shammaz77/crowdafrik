@@ -7,6 +7,9 @@
 .primary-color{
 	color: #FE2929;
 }
+.primary-bg{
+	background: #FE2929;
+}
 ul li {
   list-style: none;
 }
@@ -141,11 +144,27 @@ background: #BA7342;
   color: #FE2929;
 }
 /* =================== search bar style end ================ */
-
-
-
-
-
+/* navbar top  */
+.navigation-top{
+	background: #FE2929;
+	padding: 17px 0px;
+}
+.back-btn-nav i{
+	color: #fff;
+	border-radius: 10px;
+	border: 1px solid #FFF;
+	padding: 5px;
+}
+.page-name-nav{
+	color: #fff;
+	padding-left: 15px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.nav-main-top{
+	display: flex;
+	align-items: center;
+}
 
 
 
