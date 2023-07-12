@@ -6,7 +6,8 @@
 }
 .funding-head-text{
   padding-bottom: 8px;
-  font-weight: 500;
+  font-weight: 400;
+  padding-top: 10px;
 }
 .funding-sub-text{
   padding-bottom: 19px;
@@ -607,7 +608,9 @@
 .box-modal{
   padding:  40% 0 0% 0;
 }
-
+.close:hover{
+  color: #fff !important;
+}
 
 
 
